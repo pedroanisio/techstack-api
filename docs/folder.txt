@@ -1,0 +1,14 @@
+root/
+├── app/
+│   ├── __init__.py
+│   ├── main.py         # FastAPI app entry point
+│   ├── models.py       # SQLAlchemy ORM models
+│   ├── schemas.py      # Pydantic models for request/response validation
+│   ├── database.py     # Database configuration and connection
+│   ├── routes.py       # API route definitions
+│   └── dependencies.py # Shared dependencies (e.g., database session)
+├── tests/
+│   ├── __init__.py
+│   └── test_routes.py  # Test cases for API routes
+├── requirements.txt    # Python dependencies
+└── Dockerfile          # Containerize the application
